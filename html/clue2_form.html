@@ -1,0 +1,35 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles/base.css" />
+    </header>
+    <body>
+        <div id="title">Rätsel 2</div>
+        
+        <div id="content-container">
+            <div id="content">
+                <span id="text">
+                    Als nächstes solltet ihr eure Unterlagen sortieren. <br><br>
+                    Unten sind ein Bild von eurem Büro und dem sortierten Bücherregal. <br><br>
+                    Mit Ordnung findet sich die Lösung immer schneller.
+                </span>
+                <div id="links">
+                    <a href="/files/clue2-8610/buecher.pdf" download>Bücher</a>
+                    <a href="/files/clue2-8610/buero.pdf" download>Büro</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="log"></div>
+        
+        <form id="key-form">
+            <label>Schlüssel</label>
+            <input name="key" />
+            <button type="submit">Lösen</button>
+        </form>
+        
+        <div id="timer"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

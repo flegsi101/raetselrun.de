@@ -1,0 +1,34 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles/base.css" />
+    </header>
+    <body>
+        <div id="title">Rätsel 4</div>
+        
+        <div id="content-container">
+            <div id="content">
+                <span id="text">
+                    Ich habe mich in einem Kasino versteckt. Wenn ihr eure Daten zurück haben wollt, dann löst alle Rätsel dort. <br><br>
+                    Es beginnt an einem Roulettetisch. Ich habe den Croupier bestochen, so dass er euch die nächste Zahl verrät. <br><br>
+                    Welche ist es?
+                </span>
+                <div id="links">
+                    <a href="/files/clue4-6520/roulette.pdf" download>Roulettetisch</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="log"></div>
+        
+        <form id="key-form">
+            <label>Schlüssel</label>
+            <input name="key" />
+            <button type="submit">Lösen</button>
+        </form>
+        
+        <div id="timer"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

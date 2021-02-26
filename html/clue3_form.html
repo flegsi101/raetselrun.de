@@ -1,0 +1,39 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles/base.css" />
+    </header>
+    <body>
+        <div id="title">Rätsel 3</div>
+        
+        <div id="content-container">
+            <div id="content">
+                <span id="text">
+                    Bevor es los geht noch schnell die Teamtrickots aus der Wäsche nehmen und zum trocknen aufhängen. <br><br>
+                    Leider ist das nicht ganz so einfach. es gibt drei Regeln die zu befolgen sind. <br><br>
+                    <ul style="font-size: 1vh;">
+                        <li>Ein Trickor muss von genau 2 Klammern gehalten werden</li>
+                        <li>Eine Klammer kann nur ein Trickot halten</li>
+                        <li>Stoff kann nur an eine Klammer gleicher Farbe gehangen werden</li>
+                    </ul>
+                </span>
+                <div id="links">
+                    <a href="/files/clue3-9648/leine.pdf" download>Leine</a>
+                    <a href="/files/clue3-9648/trickots.pdf" download>Trickots</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="log"></div>
+        
+        <form id="key-form">
+            <label>Schlüssel</label>
+            <input name="key" />
+            <button type="submit">Lösen</button>
+        </form>
+        
+        <div id="timer"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

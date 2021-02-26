@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: green;
+}
+
+#timer {
+    margin-top: 4vh;
+    font-size: 7vh;
+    font-weight: bold;
+    color: #e63e3e;
+}
+
+#title {
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 8vh;
+}
+
+#content-container {
+    flex: 1;
+    padding: 2vh 4vw;
+}
+
+#content-container #content {
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6vh;
+    text-align: center;
+}
+
+#content-container #content #links {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-container #content #links a {
+    font-size: 2vh;
+    margin-top: 2vh;
+    color: white;
+}
+
+
+#log {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    height: 5vh
+}
+
+#key-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#key-form label {
+    font-size: 2vh;
+}
+
+#key-form input {
+    margin-bottom: 10px;
+    background-color: black;
+    outline: none;
+    border: 0.5vh solid green;
+    color: green;
+    font-size: 2vh;
+    padding: 0.5vh;
+}
+
+#key-form button {
+    font-size: 2vh;
+    padding: 0.5vh;
+    background-color: black;
+    outline: none;
+    border: 0.5vh solid green;
+    color: green;
+}
+
+#key-form button:active {
+    background-color: green;
+    color: black;
+}

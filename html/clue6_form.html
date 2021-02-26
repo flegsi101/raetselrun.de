@@ -1,0 +1,36 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles/base.css" />
+    </header>
+    <body>
+        <div id="title">Rätsel 6</div>
+        
+        <div id="content-container">
+            <div id="content">
+                <span id="text">
+                    Auch der Spielautomat wurde manipuliert. <br><br>
+                    Für jede Reihe, Spalte und Diagonale aus 7 Symbolen gewinnt man 100€, wenn alle 
+                    Symbole darin unterschiedlich sind oder wenn mindestens ein Symbol zwei oder öfter
+                    darin vorkommt <br><br>
+                    Wie viel gewinnen wir?
+                </span>
+                <div id="links">
+                    <a href="/files/clue6-8274/automat.pdf" download>Automat</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="log"></div>
+        
+        <form id="key-form">
+            <label>Schlüssel</label>
+            <input name="key" />
+            <button type="submit">Lösen</button>
+        </form>
+        
+        <div id="timer"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

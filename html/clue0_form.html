@@ -1,0 +1,28 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles/base.css" />
+    </header>
+    <body>
+        <h1 id="title">Hallo Detektive!</h1>
+
+        <div id="content-container">
+            <div id="content">
+                Ihr habt 90 Minuten Zeit meine Rästel zu lösen. Schafft ihr es bekommt ihr das Passwort
+                um euere Daten zu entschlüsseln. Schafft ihr es nicht lösche ich alle.
+            </div>
+        </div>
+
+        <div id="log"></div>
+
+        <form id="key-form">
+            <label>Schlüssel</label>
+            <input name="key" />
+            <button type="submit">Starten</button>
+        </form>
+
+        <div id="timer"></div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

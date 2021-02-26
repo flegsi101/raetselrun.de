@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e63e3e;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7vw;
+    white-space: nowrap;
+}
+
+h3 {
+    text-align: center;
+    font-size: 4vw;
+}
